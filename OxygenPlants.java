@@ -10,7 +10,7 @@ public class Oxygen_plants {
         float plant_area=sc.nextInt();
         float Total_plants=(l*b*100*100)/plant_area;
         Total_plants=Total_plants-Total_plants%10;
-        System.out.println("Total Production od Oxygean="+(Total_plants*0.9));
+        System.out.println("Total Production od Oxygean="+(int) (Total_plants*0.9));
     }
 
 }
